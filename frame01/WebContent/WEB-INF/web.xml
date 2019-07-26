@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>frame01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <!--  <context-param>
+  	<param-name>cmsg</param-name>
+  	<param-value>12345</param-value>
+  </context-param>
+  
+  <filter>
+  	<filter-name>myfilter</filter-name>
+  	<filter-class>com.bit.util.MyFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>myfilter</filter-name>
+  	<url-pattern>/main.do</url-pattern>
+  </filter-mapping>
+   
+  <filter>
+  	<filter-name>bitfilter</filter-name>
+  	<filter-class>com.bit.util.BitFilter</filter-class>
+  	<init-param>
+  		<param-name>msg2</param-name>
+  		<param-value>abcdefg</param-value>
+  	</init-param>
+  </filter> 
+  <filter-mapping>
+  	<filter-name>bitfilter</filter-name>
+  	<url-pattern>/two.do</url-pattern>
+  </filter-mapping>
+
+  <filter>
+  	<filter-name>mainfilter</filter-name>
+  	<filter-class>com.bit.util.MainFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>mainfilter</filter-name>
+  	<url-pattern>/bit.do</url-pattern>
+  </filter-mapping>
+  
+  <listener>
+  	<listener-class>com.bit.util.MyListener</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>main</servlet-name>
+  	<servlet-class>com.bit.controller.MainController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>two</servlet-name>
+  	<servlet-class>com.bit.controller.TwoController</servlet-class>
+  	<init-param>
+  		<param-name>msg</param-name>
+  		<param-value>Hello</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>main</servlet-name>
+  	<url-pattern>/main.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>two</servlet-name>
+  	<url-pattern>/two.do</url-pattern>
+  </servlet-mapping> -->
+  
+<!--   <filter>
+  	<filter-name>main</filter-name>
+  	<filter-class>com.bit.util.MainFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>main</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+   -->
+<!--   <servlet>
+  	<servlet-name>main</servlet-name>
+  	<servlet-class>com.bit.controller.MainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>main</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>
